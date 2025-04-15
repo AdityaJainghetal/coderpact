@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Rubik", sans-serif;
+}
+
+.icon-hover{
+    right:0;
+    transition: .3s linear all;
+}
+
+.card-hover:hover .icon-hover {
+    z-index: 10;
+    right:16px;
+  }
+
+/* .form-check:checked{
+    background-color: #FBBF24 !important;
+    color: #FBBF24 !important;
+    width: 8px;
+    height: 8px;
+}
+  */
+  .custom-typeahead .rbt-menu {
+    border-radius:10px;
+    background-color: white;
+    margin-top: 10px;
+  }
